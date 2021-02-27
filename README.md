@@ -1,28 +1,34 @@
-# Getir Case Study OK
+# Getir Case Study
 
-## Installation
+### Installation
 
-    Install dependencies with `npm install`.
+Install dependencies
 
-## Config
+```bash
+$ npm install
+```
 
-    Available environment variables are:
+### Config
 
-    `PORT`
-    (default: 3000)
+Available environment variables are
 
-    `MONGODB_URI`
-    (default: mongodb+srv://challengeUser:WUMglwNBaydH8Yvu@challenge-xzwqd.mongodb.net/getir-case-study?retryWrites=true)
+`PORT`  
+(default: 3000)
 
-## Testing
+`MONGODB_URI`  
+(default: mongodb+srv://challengeUser:WUMglwNBaydH8Yvu@challenge-xzwqd.mongodb.net/getir-case-study?retryWrites=true)
 
-    Project uses [JEST](https://jestjs.io) for testing.
+### Testing
 
-    To start unit tests:
+Project uses [JEST](https://jestjs.io) for testing.
 
-    `npm run test`
+To start unit tests
 
-## API Routes
+```bash
+$ npm run test
+```
+
+### API Routes
 
 Host: `https://getir-case-study-ok.herokuapp.com/`
 
@@ -35,7 +41,7 @@ Host: `https://getir-case-study-ok.herokuapp.com/`
 | minCount   | integer           | Minimum totalCount constraint | no       |
 | maxCount   | integer           | Maximum totalCount constraint | no       |
 
-### Request Body
+#### Request Body
 
 ```jsx
 Content-Type: application/json
@@ -47,7 +53,7 @@ Content-Type: application/json
 }
 ```
 
-### Response Payload
+#### Response Payload
 
 ```jsx
 {
@@ -68,6 +74,6 @@ Content-Type: application/json
 }
 ```
 
-## License
+### License
 
-    [WTFPL](LICENSE.md)
+[WTFPL](LICENSE.md)
